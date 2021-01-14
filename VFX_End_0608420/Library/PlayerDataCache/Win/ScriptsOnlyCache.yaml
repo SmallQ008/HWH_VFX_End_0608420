@@ -30,9 +30,12 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector3
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
+    - UnityEngine.Rendering.Volume
+    - UnityEngine.Rendering.VolumeProfile
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.Bloom
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
@@ -96,9 +99,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
@@ -125,11 +136,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11386}
     - Class: 114
+      Script: {instanceID: 11490}
+    - Class: 114
       Script: {instanceID: 11558}
     - Class: 114
       Script: {instanceID: 11700}
     - Class: 114
       Script: {instanceID: 11728}
+    - Class: 114
+      Script: {instanceID: 11768}
     - Class: 114
       Script: {instanceID: 11934}
     - Class: 114
@@ -152,6 +167,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13306}
     - Class: 114
       Script: {instanceID: 13420}
+    - Class: 114
+      Script: {instanceID: 13720}
     - Class: 114
       Script: {instanceID: 13752}
     - Class: 114
