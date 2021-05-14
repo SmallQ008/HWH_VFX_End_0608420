@@ -21,7 +21,7 @@ MonoBehaviour:
     x: 672
     y: -133
     width: 2750
-    height: 3820
+    height: 3821
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -99,7 +99,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":3.0,"y":5.0}'
+      m_SerializableObject: '{"x":1.0,"y":2.0}'
     min: -Infinity
     max: Infinity
     descendantCount: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":10.0,"y":10.0}'
+      m_SerializableObject: '{"x":1.0,"y":3.0}'
     min: -Infinity
     max: Infinity
     descendantCount: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.5,"y":1.0}'
+      m_SerializableObject: '{"x":5.0,"y":10.0}'
     min: -Infinity
     max: Infinity
     descendantCount: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.009999999776482582,"y":0.5}'
+      m_SerializableObject: '{"x":0.5,"y":3.0}'
     min: -Infinity
     max: Infinity
     descendantCount: 0
@@ -242,7 +242,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":0.0,"g":0.17752403020858766,"b":3.3593008518218996,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.10000763088464737},{"alpha":1.0,"time":0.800000011920929},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":0.9678345322608948,"g":0.0,"b":3.3593006134033205,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.10000763088464737},{"alpha":1.0,"time":0.800000011920929},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     min: -Infinity
     max: Infinity
     descendantCount: 0
@@ -255,7 +255,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":5.0,"y":8.0,"z":8.0}'
+      m_SerializableObject: '{"x":1.0,"y":0.5,"z":0.5}'
     min: -Infinity
     max: Infinity
     descendantCount: 0
@@ -268,7 +268,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":-10.0,"y":20.0,"z":-10.0}'
+      m_SerializableObject: '{"x":-5.0,"y":20.0,"z":-5.0}'
     min: -Infinity
     max: Infinity
     descendantCount: 0
@@ -3343,15 +3343,15 @@ VisualEffectResource:
         - m_ExpressionIndex: 2
           m_Value: {x: 0.5, y: 2}
         - m_ExpressionIndex: 5
-          m_Value: {x: 0.01, y: 0.5}
+          m_Value: {x: 0.5, y: 3}
         - m_ExpressionIndex: 6
-          m_Value: {x: 0.5, y: 1}
+          m_Value: {x: 5, y: 10}
         - m_ExpressionIndex: 11
           m_Value: {x: 0.5, y: 0.5}
         - m_ExpressionIndex: 12
-          m_Value: {x: 10, y: 10}
+          m_Value: {x: 1, y: 3}
         - m_ExpressionIndex: 13
-          m_Value: {x: 3, y: 5}
+          m_Value: {x: 1, y: 2}
         - m_ExpressionIndex: 14
           m_Value: {x: 0.5, y: 1}
       m_Vector3f:
@@ -3377,9 +3377,9 @@ VisualEffectResource:
         - m_ExpressionIndex: 46
           m_Value: {x: -0.5, y: -0.5, z: -0.5}
         - m_ExpressionIndex: 47
-          m_Value: {x: 5, y: 8, z: 8}
+          m_Value: {x: 1, y: 0.5, z: 0.5}
         - m_ExpressionIndex: 48
-          m_Value: {x: -10, y: 20, z: -10}
+          m_Value: {x: -5, y: 20, z: -5}
         - m_ExpressionIndex: 49
           m_Value: {x: 0, y: 5, z: 0.5}
         - m_ExpressionIndex: 50
@@ -3506,7 +3506,7 @@ VisualEffectResource:
           m_Value:
             serializedVersion: 2
             key0: {r: 1, g: 1, b: 1, a: 0}
-            key1: {r: 0, g: 0.17752403, b: 3.3593009, a: 1}
+            key1: {r: 0.96783453, g: 0, b: 3.3593006, a: 1}
             key2: {r: 0, g: 0, b: 0, a: 1}
             key3: {r: 0, g: 0, b: 0, a: 0}
             key4: {r: 0, g: 0, b: 0, a: 0}
@@ -6383,7 +6383,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":3.0,"y":5.0}'
+      m_SerializableObject: '{"x":1.0,"y":2.0}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -7313,7 +7313,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":10.0,"y":10.0}'
+      m_SerializableObject: '{"x":1.0,"y":3.0}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -9852,7 +9852,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.5,"y":1.0}'
+      m_SerializableObject: '{"x":5.0,"y":10.0}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -10001,7 +10001,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.009999999776482582,"y":0.5}'
+      m_SerializableObject: '{"x":0.5,"y":3.0}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -10152,7 +10152,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":0.0,"g":0.17752403020858766,"b":3.3593008518218996,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.10000763088464737},{"alpha":1.0,"time":0.800000011920929},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":0.9678345322608948,"g":0.0,"b":3.3593006134033205,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.10000763088464737},{"alpha":1.0,"time":0.800000011920929},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -10920,7 +10920,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":5.0,"y":8.0,"z":8.0}'
+      m_SerializableObject: '{"x":1.0,"y":0.5,"z":0.5}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -11099,7 +11099,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":-10.0,"y":20.0,"z":-10.0}'
+      m_SerializableObject: '{"x":-5.0,"y":20.0,"z":-5.0}'
     m_Space: 2147483647
   m_Property:
     name: o
